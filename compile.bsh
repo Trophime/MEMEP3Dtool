@@ -1,5 +1,5 @@
 #!/bin/bash
 
-g++ -std=c++0x -c main.cpp -fopenmp
-g++ -L/usr/local/lib -o main main.o -lm -fopenmp
+g++ -O3 -std=c++0x -c main.cpp -fopenmp
+g++ -O3 -o memep3dtool main.o -lm -fopenmp
 
